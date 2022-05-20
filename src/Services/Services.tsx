@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Services.module.css';
 import cont from '../Common/Style/Container.module.css';
-import {Skill_1s} from './Skills/Skill_1s';
+import {Skill1s} from './Skills/Skill1s';
 
 const Services = () => {
     return (
@@ -10,12 +10,12 @@ const Services = () => {
                 <h2>MY SERVICES</h2>
             </div>
             <div className={s.place}>
-                <Skill_1s/>
-                <Skill_1s/>
-                <Skill_1s/>
-                <Skill_1s/>
-                <Skill_1s/>
-                <Skill_1s/>
+                <Skill1s/>
+                <Skill1s/>
+                <Skill1s/>
+                <Skill1s/>
+                <Skill1s/>
+                <Skill1s/>
             </div>
         </div>
     );

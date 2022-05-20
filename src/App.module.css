@@ -2,3 +2,32 @@
 
 }
 
+.rightEffect {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    bottom: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: rgb(255, 101, 28, 0.8);
+    filter: blur(125px);
+    opacity: 0.25;
+    pointer-events: none;
+    z-index: -5;
+}
+
+.leftEffect {
+    position: fixed;
+    bottom: 50px;
+    left:50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: rgb(229, 113, 237, 0.8);
+    filter: blur(125px);
+    opacity: 0.25;
+    pointer-events: none;
+    z-index: -5;
+}
+

@@ -5,10 +5,7 @@
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: rgba(33, 37, 41, 0.9) 0 0 10px;
-    background-color: rgba(33, 37, 41, 0.85);
-    color: #fff;
+    backdrop-filter: saturate(180%) blur(20px);
     z-index: 111;
     padding: 15px 0;
-
-
 }

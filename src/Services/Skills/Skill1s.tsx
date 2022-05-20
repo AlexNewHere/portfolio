@@ -2,7 +2,7 @@ import s from '../Services.module.css';
 import icon from '../../logo/icon.jpg';
 import React from 'react';
 
-export function Skill_1s() {
+export function Skill1s() {
     return <div className={s.card}>
         <div><img className={s.icon} src={icon} alt={'icon'}/></div>
         <div>

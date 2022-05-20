@@ -6,6 +6,7 @@ import About from './About/About';
 import Services from './Services/Services';
 import Projects from './Project/Projects';
 import Contact from './Comtact/Contact';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         <Services/>
         <Projects/>
         <Contact/>
+        <div className={s.rightEffect}/>
+        <div className={s.leftEffect}/>
+        <Footer/>
     </div>
   );
 }

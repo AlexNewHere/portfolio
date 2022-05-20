@@ -1,20 +1,19 @@
 .contact {
     flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-    padding: 10px;
-    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh;
+    border-bottom: none;
 }
 
 .placeContact {
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;*/
-    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 15px;
     width: 100%;
+    justify-content: center;
 }
-
 
 .mainText {
     background: #3f036c;
@@ -25,7 +24,6 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 30px;
-    width: 40%;
 }
 
 
@@ -38,9 +36,11 @@
     gap: 20px;
 
 }
-.item>div p {
+
+.item > div p {
     color: white;
 }
+
 .phoneIcon {
     max-width: 50px;
     filter: invert(100%)

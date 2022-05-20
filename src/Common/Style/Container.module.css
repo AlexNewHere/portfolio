@@ -1,11 +1,9 @@
-
 .conteiner {
-    position: relative;
     min-height: 80vh;
     padding: 20px 10px 20px 10px;
-    border-bottom: 1px solid rgba(166, 165, 165, 0.94);
-    margin: 70px auto;
-    max-width: 1200px;
+    border-bottom: 0.05em solid rgba(96, 88, 88, 0.75);
+    margin: 35px auto 35px auto;
+    max-width: 135vh;
     z-index: 1;
     display: flex;
     flex-wrap: wrap;
