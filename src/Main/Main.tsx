@@ -7,7 +7,7 @@ const Main = () => {
     return (
 
             <div className={cont.conteiner}>
-                <div className={s.mainPhoto}><img src={photo} alt={'photo'}/></div>
+                <div className={s.mainPhoto}><img src={photo} alt={'mainPhoto'}/></div>
                 <div className={s.mainText}>
                     <h5>INTRODUCTION</h5>
                     <h1>I'm Alex a Front end

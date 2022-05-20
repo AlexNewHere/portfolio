@@ -1,0 +1,72 @@
+.contactForm {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-radius: 15px;
+    padding: 35px;
+    width: 60%;
+}
+
+.placeInput {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.rowInput {
+    display: flex;
+    flex-direction: row;
+       gap: 25px;
+}
+
+@media (max-width: 500px) {
+    .rowInput {
+        flex-wrap: wrap;
+    }
+}
+    
+
+
+.textArea {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.775rem 1.05rem;
+    box-shadow: none;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+}
+
+.input {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.775rem 1.05rem;
+    box-shadow: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    outline: none;
+    width: 100%;
+
+}
+
+.btn {
+    background-image: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+    color: #fff;
+    background-size: 200% 100%;
+    padding: 0 25px;
+    line-height: 46px;
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 50px;
+
+}
+.btn:hover {
+    transition: ease all 0.35s;
+    background-position: right center;
+}

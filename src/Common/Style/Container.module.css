@@ -1,8 +1,8 @@
 
 .conteiner {
     position: relative;
-    min-height: 100vh;
-    padding: 60px 10px 20px 10px;
+    min-height: 80vh;
+    padding: 20px 10px 20px 10px;
     border-bottom: 1px solid rgba(166, 165, 165, 0.94);
     margin: 70px auto;
     max-width: 1200px;

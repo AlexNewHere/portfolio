@@ -4,6 +4,8 @@ import Header from './Header/Header';
 import Main from './Main/Main';
 import About from './About/About';
 import Services from './Services/Services';
+import Projects from './Project/Projects';
+import Contact from './Comtact/Contact';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Main/>
         <About/>
         <Services/>
+        <Projects/>
+        <Contact/>
     </div>
   );
 }

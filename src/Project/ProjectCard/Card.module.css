@@ -1,0 +1,29 @@
+.card {
+    max-width: 340px;
+    max-height: 420px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.mainText {
+    background: #3f036c;
+}
+
+.cardPlace {
+    overflow: hidden;
+}
+
+.cardPlace:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.cardInfo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
