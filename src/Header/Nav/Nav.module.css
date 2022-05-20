@@ -1,0 +1,30 @@
+.link {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.conteiner {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: space-between;
+    gap: 25px;
+    background: #b410b3;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    max-width: 50px;
+    filter: invert(100%)
+}

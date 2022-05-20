@@ -1,0 +1,17 @@
+.about {
+    align-items: flex-start;
+}
+
+.mainText {
+    width: 400px;
+    color: white;
+    background: #3f036c;
+}
+
+.photo {
+    width: 400px;
+    border-radius: 50%;
+}
+
+.mainPhoto {
+}
