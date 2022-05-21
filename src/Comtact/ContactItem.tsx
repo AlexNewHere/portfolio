@@ -4,7 +4,6 @@ import phone_icon from '../logo/phone_icon.svg';
 import mail_icon from '../logo/mail_icon.svg';
 import place_icon from '../logo/place_icon.svg';
 
-
 const ContactItem = () => {
     return (
         <div className={s.blockItem}>

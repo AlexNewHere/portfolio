@@ -13,10 +13,11 @@ function App() {
     <div className={s.App}>
         <Header/>
         <Main/>
-        <About/>
-        <Services/>
-        <Projects/>
-        <Contact/>
+        <section id={'about'}><About/></section>
+        <section id={'services'}><Services/></section>
+        <section id={'projects'}><Projects/></section>
+        <section id={'contact'}><Contact/></section>
+
         <div className={s.rightEffect}/>
         <div className={s.leftEffect}/>
         <Footer/>

@@ -6,7 +6,7 @@ import photo from '../logo/photo.jpg';
 const Main = () => {
     return (
 
-            <div className={cont.conteiner}>
+            <div className={cont.conteiner+' '+s.main}>
                 <div className={s.mainPhoto}><img src={photo} alt={'mainPhoto'}/></div>
                 <div className={s.mainText}>
                     <h5>INTRODUCTION</h5>
