@@ -1,18 +1,27 @@
 import React from 'react';
 import s from './Nav.module.css';
 import logo from '../../logo/logo.svg';
-import {HashLink} from 'react-router-hash-link';
+import {Link, animateScroll as scroll} from 'react-scroll';
 
 const Navbar = () => {
     return (
         <div className={s.link}>
-            <img src={logo} className={s.logo} alt={'logo'}/>
+
             <div className={s.conteiner}>
-                <HashLink smooth to={'#top'} className={s.navLink}>Home</HashLink>
-                <HashLink smooth to={'#about'} className={s.navLink}>About us</HashLink>
-                <HashLink smooth to={'#services'} className={s.navLink}>Services</HashLink>
-                <HashLink smooth to={'#projects'} className={s.navLink}>Project</HashLink>
-                <HashLink smooth to={'#contact'} className={s.navLink}>Contact</HashLink>
+                <div>
+                    <img src={logo} className={s.logo} alt={'logo'} onClick={() => scroll.scrollToTop(100)}/>
+                </div>
+                <div className={s.conteiner_nav}>
+                    <Link to={'top'} smooth={true} duration={500}  className={s.navLink}>Home</Link>
+                    <Link smooth to={'about'} className={s.navLink}>About
+                        us</Link>
+                    <Link smooth to={'services'}
+                          className={s.navLink}>Services</Link>
+                    <Link smooth to={'projects'}
+                          className={s.navLink}>Project</Link>
+                    <Link smooth to={'contact'}
+                          className={s.navLink}>Contact</Link>
+                </div>
             </div>
         </div>
     );

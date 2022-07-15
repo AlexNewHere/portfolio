@@ -7,22 +7,23 @@ import Services from './Services/Services';
 import Projects from './Project/Projects';
 import Contact from './Comtact/Contact';
 import Footer from './Footer/Footer';
+import {Element} from 'react-scroll';
 
 function App() {
-  return (
-    <div className={s.App}>
-        <Header/>
-        <Main/>
-        <section id={'about'}><About/></section>
-        <section id={'services'}><Services/></section>
-        <section id={'projects'}><Projects/></section>
-        <section id={'contact'}><Contact/></section>
+    return (
+        <div className={s.App}>
+            <Header/>
+            <Element name={'top'}><Main/></Element>
+            <Element name={'about'}><About/></Element>
+            <Element name={'services'}><Services/></Element>
+            <Element name={'projects'}><Projects/></Element>
+            <Element name={'contact'}><Contact/></Element>
 
-        <div className={s.rightEffect}/>
-        <div className={s.leftEffect}/>
-        <Footer/>
-    </div>
-  );
+            <div className={s.rightEffect}/>
+            <div className={s.leftEffect}/>
+            <Footer/>
+        </div>
+);
 }
 
 export default App;
