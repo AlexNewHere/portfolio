@@ -3,14 +3,14 @@
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  padding: 35px;
+  padding: 100px 35px;
   gap: 50px;
-
+  width: 100%;
   @media (max-width: 800px) {
-    padding-top: 100px;
     flex-wrap: wrap;
   }
-  .mainText {
+
+  .mainSkills {
     max-width: 500px;
     color: white;
 
@@ -24,10 +24,12 @@
         -webkit-text-fill-color: transparent;
       }
     }
+
     .btn {
-      margin-top: 25px;
+      margin-top: 45px;
     }
   }
+
   .mainPhoto {
     max-width: 100%;
   }

@@ -1,0 +1,12 @@
+.skill {
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  & img {
+    width: 64px;
+    height: 64px;
+  }
+}

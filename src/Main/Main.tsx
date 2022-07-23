@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import s from './Main.module.scss';
-import com from '../Common/Style/Container.module.scss';
 import cont from '../Common/Style/Container.module.scss';
 import photo from '../logo/photo.jpg';
 import Typist from 'react-typist';
@@ -42,7 +41,7 @@ const Main = () => {
                     <div className={s.btn}>
                         <a href={AlexBoiko} target="_blank" rel={'noreferrer'}
                            download={'AlexBoiko.pdf'}>
-                            <button className={com.btn}>Browse Resume</button>
+                            <button className={cont.btn}>Browse Resume</button>
                         </a>
                     </div>
                 </div>

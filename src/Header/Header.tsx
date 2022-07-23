@@ -15,8 +15,8 @@ const Header = () => {
                     <div className={s.container_nav}>
                         <Link to={'top'}  smooth={true} duration={500}
                               className={s.navLink}><span>Home</span></Link>
-                        <Link smooth to={'about'} offset={-65} className={s.navLink}>About
-                            us</Link>
+                        <Link smooth to={'about'} offset={-65}
+                              className={s.navLink}> Skills </Link>
                         <Link smooth to={'services'} offset={-65}
                               className={s.navLink}>Services</Link>
                         <Link smooth to={'projects'} offset={-65}
