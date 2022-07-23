@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Form.module.css';
+import s from '../../Common/Style/Container.module.scss';
 
 const Form = () => {
     return (
