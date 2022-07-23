@@ -1,13 +1,16 @@
 .main {
-
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    gap: 25px;
 }
 
 .mainText {
-    width: 400px;
     color: white;
     background: #3f036c;
 }
 
 .mainPhoto {
-
-    }
+    max-width: 100%;
+}

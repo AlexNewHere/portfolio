@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './About.module.css';
-import cont from '../Common/Style/Container.module.css';
+import cont from '../Common/Style/Container.module.scss';
 import photo_2 from '../logo/photo_2.webp';
 
 const About = () => {

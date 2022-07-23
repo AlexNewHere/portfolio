@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './App.module.css';
+import s from './App.module.scss';
 import Header from './Header/Header';
 import Main from './Main/Main';
 import About from './About/About';
@@ -13,15 +13,14 @@ function App() {
     return (
         <div className={s.App}>
             <Header/>
-            <Element name={'top'}><Main/></Element>
-            <Element name={'about'}><About/></Element>
-            <Element name={'services'}><Services/></Element>
-            <Element name={'projects'}><Projects/></Element>
-            <Element name={'contact'}><Contact/></Element>
-
+            {/*<Element name={'top'}><Main/></Element>*/}
+            {/*<Element name={'about'}><About/></Element>*/}
+            {/*<Element name={'services'}><Services/></Element>*/}
+            {/*<Element name={'projects'}><Projects/></Element>*/}
+            {/*<Element name={'contact'}><Contact/></Element>*/}
             <div className={s.rightEffect}/>
             <div className={s.leftEffect}/>
-            <Footer/>
+            {/*<Footer/>*/}
         </div>
 );
 }

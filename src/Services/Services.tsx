@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Services.module.css';
-import cont from '../Common/Style/Container.module.css';
+import cont from '../Common/Style/Container.module.scss';
 import {Skill1s} from './Skills/Skill1s';
 
 const Services = () => {

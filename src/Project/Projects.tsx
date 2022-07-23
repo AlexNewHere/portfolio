@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Project.module.css';
-import cont from '../Common/Style/Container.module.css';
+import cont from '../Common/Style/Container.module.scss';
 import {CardProject} from './ProjectCard/CardProject';
 
 const Projects = () => {
