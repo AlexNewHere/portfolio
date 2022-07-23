@@ -1,0 +1,85 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: rgba(33, 37, 41, 0.9) 0 0 10px;
+  backdrop-filter: saturate(180%) blur(20px);
+  z-index: 111;
+  padding: 10px;
+
+  .link {
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    .container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+      font-size: 14px;
+
+      .logo {
+        max-width: 50px;
+        filter: invert(100%);
+        cursor: pointer;
+      }
+
+      &_nav {
+        display: flex;
+        cursor: pointer;
+        gap: 25px;
+
+        .navLink {
+          position: relative;
+          text-decoration: none;
+          color: white;
+
+          &:hover {
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: auto;
+              right: 0;
+              height: 2px;
+              width: 100%;
+              background-image: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+              transition: all 0.5s linear;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.active {
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+    transition: all 0.5s linear;
+  }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Header.module.css';
+import s from '../Header/Header.module.scss';
 import logo from '../logo/logo.svg';
 import {Link, animateScroll as scroll} from 'react-scroll';
 
@@ -7,19 +7,21 @@ const Header = () => {
     return (
         <header className={s.header}>
             <div className={s.link}>
-                <div className={s.conteiner}>
+                <div className={s.container}>
                     <div>
-                        <img src={logo} className={s.logo} alt={'logo'} onClick={() => scroll.scrollToTop(100)}/>
+                        <img src={logo} className={s.logo} alt={'logo'}
+                             onClick={() => scroll.scrollToTop(100)}/>
                     </div>
-                    <div className={s.conteiner_nav}>
-                        <Link to={'top'} smooth={true} duration={500}  className={s.navLink}>Home</Link>
-                        <Link smooth to={'about'} className={s.navLink}>About
+                    <div className={s.container_nav}>
+                        <Link to={'top'}  smooth={true} duration={500}
+                              className={s.navLink}><span>Home</span></Link>
+                        <Link smooth to={'about'} offset={-65} className={s.navLink}>About
                             us</Link>
-                        <Link smooth to={'services'}
+                        <Link smooth to={'services'} offset={-65}
                               className={s.navLink}>Services</Link>
-                        <Link smooth to={'projects'}
+                        <Link smooth to={'projects'} offset={-65}
                               className={s.navLink}>Project</Link>
-                        <Link smooth to={'contact'}
+                        <Link smooth to={'contact'} offset={-65}
                               className={s.navLink}>Contact</Link>
                     </div>
                 </div>

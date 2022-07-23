@@ -5,7 +5,7 @@ import linkedIn from '../logo/footer/linkedIn.svg';
 
 const Footer = () => {
     return (
-        <div className={s.footerConteiner}>
+        <footer className={s.footerConteiner}>
 
             <div className={s.footer}>
                 <div className={s.footerIcon}>
@@ -15,7 +15,7 @@ const Footer = () => {
                 </div>
                 <div className={s.footerText}><p>© 2022 copyright all right reserved</p></div>
             </div>
-        </div>
+        </footer>
     );
 };
 

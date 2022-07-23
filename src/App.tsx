@@ -13,7 +13,7 @@ function App() {
     return (
         <div className={s.App}>
             <Header/>
-            {/*<Element name={'top'}><Main/></Element>*/}
+            <Element name={'top'}><Main/></Element>
             {/*<Element name={'about'}><About/></Element>*/}
             {/*<Element name={'services'}><Services/></Element>*/}
             {/*<Element name={'projects'}><Projects/></Element>*/}
