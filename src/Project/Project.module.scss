@@ -1,8 +1,8 @@
+@import "../Common/Style/sass/mixin.scss";
+
 .project {
-    display: flex;
-    flex-direction: column;
+    @include title;
     justify-content: flex-start;
-    gap: 55px;
 }
 
 .place {

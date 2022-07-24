@@ -18,8 +18,8 @@ const Main = () => {
     }
 
     return (
-        <main className={cont.container}>
-            <div className={s.main}>
+        <main className={cont.container+' '+s.main}>
+
                 <div className={s.mainPhoto}><img src={photo} alt={'mainPhoto'}/></div>
                 <div className={s.mainText}>
                     <h5>INTRODUCTION</h5>
@@ -45,7 +45,7 @@ const Main = () => {
                         </a>
                     </div>
                 </div>
-            </div>
+
         </main>
     );
 };

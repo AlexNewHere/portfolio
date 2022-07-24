@@ -11,6 +11,7 @@ import git from '../logo/icons/git.png'
 import github from '../logo/icons/github.png'
 import sass from '../logo/icons/sass.png'
 import Skill from '../Skills/skill/Skill';
+import Title from '../Common/Title/Title';
 
 const Skills = () => {
     const skills = [
@@ -26,9 +27,7 @@ const Skills = () => {
     ];
     return (
         <div className={cont.container + ' ' + s.about}>
-            <div className={s.title}>
-                <h1>Skills</h1>
-            </div>
+            <Title title={'Skills'}/>
             <div className={s.mainSkills}>
                 {skills.map(skill=>
                 <Skill

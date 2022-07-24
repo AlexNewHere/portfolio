@@ -1,17 +1,14 @@
 .main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: nowrap;
-  padding: 100px 35px;
+  padding: 100px 50px;
   gap: 50px;
-  width: 100%;
+
   @media (max-width: 800px) {
     flex-wrap: wrap;
   }
 
-  .mainSkills {
-    max-width: 500px;
+  .mainText {
+    max-width: 700px;
     color: white;
 
     & h1 {
@@ -31,7 +28,7 @@
   }
 
   .mainPhoto {
-    max-width: 100%;
+    max-width: 500px;
   }
 
 }
