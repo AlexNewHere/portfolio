@@ -6,8 +6,15 @@
   backdrop-filter: saturate(180%) blur(20px);
   border-radius: 15px;
   padding: 30px;
-  width: 100%;
+  max-width: 100%;
 
+  @media (max-width: 500px) {
+    & h5 {
+      display: flex;
+      justify-content: center;
+    }
+    max-width: 80%;
+  }
   .placeInput {
     display: flex;
     flex-direction: column;
@@ -20,9 +27,21 @@
 
       @media (max-width: 500px) {
         flex-wrap: wrap;
+
       }
 
       }
+    .input {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0.775rem 1.05rem;
+      box-shadow: none;
+      border-radius: 0.25rem;
+      color: #fff;
+      outline: none;
+      width: 100%;
+      font-family: $fontFamily;
+    }
     .textArea {
       background: rgba(255, 255, 255, 0.05);
       border: 1px solid rgba(255, 255, 255, 0.1);
@@ -38,15 +57,4 @@
 }
 
 
-.input {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 0.775rem 1.05rem;
-  box-shadow: none;
-  border-radius: 0.25rem;
-  color: #fff;
-  outline: none;
-  width: 100%;
-  font-family: $fontFamily;
 
-}

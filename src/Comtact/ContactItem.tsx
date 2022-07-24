@@ -17,7 +17,7 @@ const ContactItem = () => {
             <div className={s.item}>
                 <img src={mail_icon} className={s.phoneIcon} alt={'mail_icon'}/>
                 <div>
-                    <p>tendren3310@googlemail.com</p>
+                    <p>tendren3310@ googlemail.com</p>
                     <p>Mon to Fri (09 am – 7 pm)</p>
                 </div>
             </div>

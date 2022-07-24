@@ -20,8 +20,7 @@ const Form = () => {
     return (
         <div className={s.contactForm}>
             <h5>SAY SOMETHING</h5>
-            <form ref={form} onSubmit={sendEmail}>
-                <div className={s.placeInput}>
+            <form ref={form} onSubmit={sendEmail} className={s.placeInput}>
                     <div className={s.rowInput}>
                         <input className={s.input} type="text" name={'name'} required
                                placeholder={'name'}/>
@@ -33,7 +32,6 @@ const Form = () => {
                     <textarea className={s.textArea} name={'messages'} required
                               placeholder={'messages'}/>
                     <button className={cont.btn} type={'submit'}>Send Messages</button>
-                </div>
             </form>
         </div>
     );

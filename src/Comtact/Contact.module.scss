@@ -1,38 +1,39 @@
 @import "../Common/Style/sass/mixin.scss";
 
 .contact {
-    @include title;
-    justify-content: flex-start;
-    align-items: center;
-    min-height: 70vh;
-    border-bottom: none;
+  @include title;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 70vh;
+  border-bottom: none;
 
-    .placeContact {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        gap: 35px;
-        width: 100%;
-        justify-content: center;
+  .placeContact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 35px;
+    width: 100%;
+    justify-content: center;
 
-        @media (max-width: 850px) {
-            flex-wrap: wrap;
-        }
-
+    @media (max-width: 850px) {
+      flex-wrap: wrap;
     }
+
+  }
 }
 
 
 .blockItem {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-    gap: 30px;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  gap: 30px;
+  @media (max-width: 500px) {
+    max-width: 80%;
+  }
 
-
-.item {
+  .item {
     border: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(255, 255, 255, 0.04);
     border-radius: 15px;
@@ -40,17 +41,23 @@
     display: flex;
     gap: 20px;
     align-items: center;
+      @media (max-width: 500px) {
+          padding: 5px;
+      }
+  }
 
-}
-
-.item > div p {
+  .item > div p {
     color: white;
-}
+  }
 
-.phoneIcon {
+  .phoneIcon {
     max-width: 50px;
     filter: invert(100%)
+  }
 }
+
+
+
 
 
 
