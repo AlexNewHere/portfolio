@@ -14,8 +14,14 @@ import mui from '../logo/icons/mui.png'
 import Skill from '../Skills/skill/Skill';
 import Title from '../Common/Title/Title';
 
+type SkillTypes = {
+ id: number
+ title: string
+ icon: string
+}
+
 const Skills = () => {
-    const skills = [
+    const skills: SkillTypes[] = [
         {id: 1, title: 'React', icon: react},
         {id: 2, title: 'Redux', icon: redux},
         {id: 3, title: 'JavaScript', icon: js},
