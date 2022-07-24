@@ -1,0 +1,28 @@
+.footerContainer {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(33, 37, 41, 0.9) 0 0 10px;
+
+    .footer {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        max-width: 115vh;
+        margin: 0 auto;
+
+        .footerText {
+            display: flex;
+            justify-content: flex-start;
+            width: 50%;
+            padding: 20px 0;
+        }
+
+        .footerIcon {
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+            width: 50%;
+            padding: 20px 0;
+        }
+    }
+}

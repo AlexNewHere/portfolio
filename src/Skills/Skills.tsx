@@ -10,6 +10,7 @@ import ts from '../logo/icons/typescript.png'
 import git from '../logo/icons/git.png'
 import github from '../logo/icons/github.png'
 import sass from '../logo/icons/sass.png'
+import mui from '../logo/icons/mui.png'
 import Skill from '../Skills/skill/Skill';
 import Title from '../Common/Title/Title';
 
@@ -24,6 +25,7 @@ const Skills = () => {
         {id: 7, title: 'Git', icon: git},
         {id: 8, title: 'Github', icon: github},
         {id: 9, title: 'Sass/Scss', icon: sass},
+        {id: 10, title: 'MaterialUI', icon: mui},
     ];
     return (
         <div className={cont.container + ' ' + s.about}>
