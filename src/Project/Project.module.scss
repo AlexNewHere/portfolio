@@ -3,20 +3,17 @@
 .project {
     @include title;
     justify-content: flex-start;
+
+    .place {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-around;
+    }
 }
 
-.place {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: space-around;
-}
 
-.mainSkills {
-    padding: 20px;
-    background: #3f036c;
-}
 
 
 

@@ -12,6 +12,9 @@ const Projects = () => {
                 <CardProject/>
                 <CardProject/>
                 <CardProject/>
+                <CardProject/>
+                <CardProject/>
+                <CardProject/>
             </div>
         </div>
     );

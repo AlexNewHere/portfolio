@@ -1,15 +1,15 @@
 import React from 'react';
-import s from './Contact.module.css';
+import s from '../Comtact/Contact.module.scss';
 import cont from '../Common/Style/Container.module.scss';
 import Form from './Form/Form';
 import ContactItem from './ContactItem';
+import Title from '../Common/Title/Title';
+
 
 const Contact = () => {
     return (
-        <div className={cont.conteiner + ' ' + s.contact}>
-            <div className={s.mainText}>
-                <h2>GET IN TOUCH</h2>
-            </div>
+        <div className={cont.container + ' ' + s.contact}>
+            <Title title={'GET IN TOUCH'} />
             <div className={s.placeContact}>
                 <Form/>
                 <ContactItem/>

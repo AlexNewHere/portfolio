@@ -1,0 +1,52 @@
+@import "../../Common/Style/sass/variables";
+
+.contactForm {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: saturate(180%) blur(20px);
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+
+  .placeInput {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    .rowInput {
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+
+      @media (max-width: 500px) {
+        flex-wrap: wrap;
+      }
+
+      }
+    .textArea {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0.775rem 1.05rem;
+      box-shadow: none;
+      border-radius: 10px;
+      color: $textColor;
+      max-width: 100%;
+      outline: none;
+      font-family: $fontFamily;
+    }
+  }
+}
+
+
+.input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.775rem 1.05rem;
+  box-shadow: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  outline: none;
+  width: 100%;
+  font-family: $fontFamily;
+
+}

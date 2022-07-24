@@ -2,12 +2,13 @@ import React, {useState} from 'react';
 import s from './Main.module.scss';
 import cont from '../Common/Style/Container.module.scss';
 import photo from '../logo/photo.jpg';
-import Typist from 'react-typist';
 import AlexBoiko from '../cv/AlexBoiko.pdf'
+import Typist from 'react-typist';
 
 const Main = () => {
-    const texts = ['a Front end Developer', 'a Software engineer'];
-    const [currentTextCounter, setCurrentTextCounter] = useState(0);
+
+    const texts: string [] = ['a Front end Developer', 'a Software engineer'];
+    const [currentTextCounter, setCurrentTextCounter] = useState<number>(0);
 
     const changeText = () => {
         if (currentTextCounter < texts.length - 1) {
@@ -19,7 +20,6 @@ const Main = () => {
 
     return (
         <main className={cont.container+' '+s.main}>
-
                 <div className={s.mainPhoto}><img src={photo} alt={'mainPhoto'}/></div>
                 <div className={s.mainText}>
                     <h5>INTRODUCTION</h5>
@@ -31,7 +31,6 @@ const Main = () => {
                             <Typist.Backspace count={texts[currentTextCounter].length}
                                               delay={500}/>
                         </Typist>
-
                     </h1>
                     <p>I develop services for customers of all sizes, specializing in
                         creating stylish, modern websites, web services and online stores.
@@ -45,7 +44,6 @@ const Main = () => {
                         </a>
                     </div>
                 </div>
-
         </main>
     );
 };

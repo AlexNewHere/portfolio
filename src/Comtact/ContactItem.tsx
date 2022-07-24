@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Contact.module.css';
+import s from '../Comtact/Contact.module.scss';
 import phone_icon from '../logo/phone_icon.svg';
 import mail_icon from '../logo/mail_icon.svg';
 import place_icon from '../logo/place_icon.svg';

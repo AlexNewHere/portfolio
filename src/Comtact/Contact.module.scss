@@ -1,28 +1,33 @@
+@import "../Common/Style/sass/mixin.scss";
+
 .contact {
-    flex-direction: column;
-    justify-content: space-around;
+    @include title;
+    justify-content: flex-start;
     align-items: center;
-    min-height: 60vh;
+    min-height: 70vh;
     border-bottom: none;
+
+    .placeContact {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 35px;
+        width: 100%;
+        justify-content: center;
+
+        @media (max-width: 850px) {
+            flex-wrap: wrap;
+        }
+
+    }
 }
 
-.placeContact {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 15px;
-    width: 100%;
-    justify-content: center;
-}
-
-.mainSkills {
-    background: #3f036c;
-}
 
 .blockItem {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    width: 100%;
     gap: 30px;
 }
 
@@ -34,6 +39,7 @@
     padding: 20px 30px;
     display: flex;
     gap: 20px;
+    align-items: center;
 
 }
 

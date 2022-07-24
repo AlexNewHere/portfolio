@@ -15,10 +15,10 @@ function App() {
             <Element name={'top'}><Main/></Element>
             <Element name={'about'}><Skills/></Element>
             <Element name={'projects'}><Projects/></Element>
-            {/*<Element name={'contact'}><Contact/></Element>*/}
+            <Element name={'contact'}><Contact/></Element>
             <div className={s.rightEffect}/>
             <div className={s.leftEffect}/>
-            {/*<Footer/>*/}
+            <Footer/>
         </div>
 );
 }
