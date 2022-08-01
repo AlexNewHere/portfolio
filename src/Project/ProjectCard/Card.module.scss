@@ -8,6 +8,7 @@
 
     .cardPlace {
         overflow: hidden;
+        opacity: 0.9;
         &:hover {
             transform: scale(1.1);
             transition: 0.5s;
@@ -15,9 +16,12 @@
     }
 
     .cardInfo {
+        background: rgba(0, 0, 0, 0.80);
         position: absolute;
-        top: 20px;
-        left: 20px;
+        padding: 5px 5px 0 10px;
+        width: 100%;
+        top: 0;
+        left: 0;
     }
 }
 
