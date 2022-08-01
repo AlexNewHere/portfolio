@@ -4,6 +4,7 @@ import cont from '../Common/Style/Container.module.scss';
 import {CardProject} from './ProjectCard/CardProject';
 import Title from '../Common/Title/Title';
 import toDo from '../logo/project/toDo.png'
+import counter from '../logo/project/counter.png'
 
 const Projects = () => {
     const projects = [
@@ -33,9 +34,10 @@ const Projects = () => {
             title: 'Counter',
             description: 'TypeScript / React / Redux / Redux Toolkit',
             url: 'https://github.com/AlexNewHere/counter',
-            image: `${toDo}`
+            image: `${counter}`
         },
     ]
+
     return (
         <div className={cont.container + ' ' + s.project}>
             <Title title={'Projects'}/>
